@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rinterio</title>
+
+    <!-- Google Font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome cdn -->
+    <script src="https://kit.fontawesome.com/aff96cd569.js" crossorigin="anonymous"></script>
+
+    <!-- Tailwind & DaisyUI cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind Custom Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#ABEF5F",
+                        "secondary": "rgba(171, 239, 95, 0.50)",
+                        "background": "#F4F4F4",
+                        "accent": "#1C1C1C",
+                        "title": "#212121",
+                        "paragraph": "#494949",
+                        "paragraph_light": "#737373",
+                    },
+                    backgroundImage: {
+                        "paper": "url(./assets/bg.jpg)",
+                    },
+                    fontFamily: {
+                        "manrope": "Manrope",
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="font-manrope">
+    <header></header>
+    <main></main>
+    <footer></footer>
+</body>
+
+</html>
