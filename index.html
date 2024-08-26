@@ -45,7 +45,83 @@
 </head>
 
 <body class="font-manrope">
-    <header></header>
+    <header class="bg-gradient-to-t from-white to-neutral-200 h-56">
+        <!-- Navbar section -->
+        <div class="w-11/12 mx-auto">
+            <nav class="navbar py-10">
+                <div class="navbar-start w-full md:w-1/2 lg:w-1/3">
+                    <a href="#" class="flex items-center gap-2">
+                        <div class="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6 -rotate-45">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                            </svg>
+                        </div>
+                        <span class="text-3xl font-bold">Rinterio</span>
+                    </a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal items-center px-1 text-paragraph_light text-base">
+                        <li class="text-paragraph font-bold"><a>Home</a></li>
+                        <li class="hover:text-paragraph hover:font-bold duration-300 ease-in-out"><a>Services</a></li>
+                        <li class="hover:text-paragraph hover:font-bold duration-300 ease-in-out"><a>Portfolio</a></li>
+                        <li class="hover:text-paragraph hover:font-bold duration-300 ease-in-out"><a>Blogs</a></li>
+                        <li class="hover:text-paragraph hover:font-bold duration-300 ease-in-out"><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end md:w-3/5 lg:w-2/5 space-x-4 lg:ml-16 hidden md:flex">
+                    <!-- search -->
+                    <div class="w-12 h-12 flex items-center justify-center rounded-full bg-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="#737373" class="size-7">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                        </svg>
+                    </div>
+                    <!-- cart -->
+                    <div class="w-12 h-12 flex items-center justify-center rounded-full bg-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="#737373" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                        </svg>
+                    </div>
+                    <!-- nav button -->
+                    <a href="#">
+                        <div class="flex items-center gap-2 py-3 px-5 bg-primary rounded-[32px]">
+                            <span class="text-xl font-bold text-accent">Book Consult</span>
+                            <div class="w-8 h-8 bg-accent rounded-full flex items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="#fff" class="size-6 -rotate-45">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Responsive dropdown menu -->
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="lg:hidden">
+                        <div class="w-12 h-12 flex items-center justify-center rounded-full bg-white ml-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="#737373" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                            </svg>
+                        </div>
+
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0">
+                        <li><a>Item 1</a></li>
+                        <li><a>Item 3</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
     <main></main>
     <footer></footer>
 </body>
