@@ -31,6 +31,7 @@
                         "title": "#212121",
                         "paragraph": "#494949",
                         "paragraph_light": "#737373",
+                        "border": "#E9E9E9"
                     },
                     backgroundImage: {
                         "paper": "url(./assets/bg.jpg)",
@@ -45,8 +46,8 @@
 </head>
 
 <body class="font-manrope">
-    <header class="bg-gradient-to-t from-white to-neutral-200 h-56">
-        <!-- Navbar section -->
+    <header class="bg-gradient-to-t from-white to-neutral-100">
+        <!-- Navbar Section -->
         <div class="w-11/12 mx-auto">
             <nav class="navbar py-10">
                 <div class="navbar-start w-full md:w-1/2 lg:w-1/3">
@@ -72,7 +73,7 @@
                 </div>
                 <div class="navbar-end md:w-3/5 lg:w-2/5 space-x-4 lg:ml-16 hidden md:flex">
                     <!-- search -->
-                    <div class="w-12 h-12 flex items-center justify-center rounded-full bg-white">
+                    <div class="w-12 h-12 flex items-center justify-center rounded-full bg-white border border-border">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="#737373" class="size-7">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -80,7 +81,7 @@
                         </svg>
                     </div>
                     <!-- cart -->
-                    <div class="w-12 h-12 flex items-center justify-center rounded-full bg-white">
+                    <div class="w-12 h-12 flex items-center justify-center rounded-full bg-white border border-border">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="#737373" class="size-6">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -121,6 +122,39 @@
                 </div>
             </nav>
         </div>
+
+        <!-- Banner Section -->
+        <section class="w-11/12 mx-auto mb-28">
+            <div class="flex flex-col items-center gap-6 lg:mt-4">
+                <!-- banner image -->
+                <div class="w-4/5 md:w-3/5 lg:w-auto">
+                    <img class="w-full" src="./assets/banner.png" alt="banner image">
+                </div>
+                <!-- banner text -->
+                <div class="flex flex-col items-center text-center gap-6">
+                    <h1 class="text-3xl md:text-4xl lg:text-6xl font-black tracking-tight text-title md:w-4/5 lg:w-4/5">A barn house of this design has a
+                        striking appearance</h1>
+                    <p class="mb-2 lg:text-base text-sm font-medium md:w-3/4 lg:w-3/4">The barn house captivates with its blend of rustic charm and
+                        modern sophistication, featuring
+                        weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+                    </p>
+                    <a href="#" class="inline-block w-full md:w-auto">
+                        <div
+                            class="flex items-center justify-center gap-2 py-3 px-6 bg-secondary rounded-[32px] border border-primary cursor-pointer">
+                            <span class="text-xl font-bold text-accent">View Details</span>
+                            <div class="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="#1C1C1C" class="size-6 -rotate-45">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
     </header>
     <main></main>
     <footer></footer>
